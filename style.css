@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 200vh;
+    max-width: 100vw;
+ 
+}
+nav{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    height: 10vh;
+}
+.logo{
+    font-size: 42px;
+    font-weight: 900;
+    font-family: monospace;
+    margin-left: 10px;
+}
+ nav a{
+    padding: 10px 15px;
+    margin: 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+}
+.login-btn{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.sign-up{
+    background-color: #23f;
+    border-radius: 20px;
+    color: #fff;
+
+}
+main{
+    max-width: 100%;
+    
+}
+.first{
+    background: linear-gradient(to right bottom, #0046a1,#4d6f9c, #002d68);
+    min-height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.first-part{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.first-part h1{
+    font-size: 55px;
+    margin: 10px;
+}
+.first-part p{
+    max-width: 900px;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+
+}
+.get-start{
+    background-color: #000;
+    border-radius: 20px;
+    font-size: 28px;
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+    padding: 15px 20px;
+    font-family: arial;
+}
+img{
+    height: 400px;
+    width: auto;
+    
+}
+.second{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 50vh;
+    
+}
+.second h2{
+    font-size: 60px;
+    margin-top: 5vh;
+    margin-left: 8%;
+}
+.texts{
+    margin: 5% 10%;
+    height: 20vh;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    opacity: 0;
+    transform: translate(200px);
+    transition: all .5s ease;
+
+}
+.second a{
+    margin: 8%;
+}
+.texts h3{
+    font-size: 30px;
+}
+.texts div{
+    margin: 1rem;
+    padding: .5rem;
+    border-top:1px solid #000 ;
+}
+
+
+.detail{
+    opacity: 0;
+    transition: all .5s ease;
+
+
+}
+.third{
+    width: 80%;
+    margin-top: 10vh;
+    background-color: #000;
+    color: #fff;
+    padding: 5% 10% 5% 10% ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+.third h2{
+    font-size: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.third p{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.swiper {
+    margin-top: 5vh;
+    width: 80%;
+    height: 40vh;
+}
+.swiper img{
+    width:90%;
+}
+.faqs{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10%;
+}
+.faqs h1{
+    padding: 2vh 0;
+    font-size: 70px;
+    margin: 5vh 0;
+    border-bottom: 1px solid ;
+}
+.faq{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5vh 0;
+    border-bottom: 1px solid ;
+    transform: translate(100px);
+    opacity: 0;
+    transition: all .5s ease;
+
+}
+.faq h4{
+    padding: 5vh 0;
+    font-size: 23px;
+    width: 30%;
+    margin-left: 5%;
+
+}
+.faq p{
+    padding: 5vh 0;
+
+    font-size: 23px;
+    width: 30%;
+
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: serif;
+    text-align: center;
+}
+.foot {
+    width: 60%;
+    padding: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer p{
+    padding: 10px;
+    margin: 1rem;
+    cursor: pointer;
+}
+footer p:hover{
+    text-decoration:underline ;
+}
+footer h5{
+    font-size: 23px;
+}
+.build-with{
+    font-family: sans-serif;
+    width: 100%;
+    padding: 4% 0;
+    font-size: 30px;
+    text-align: center;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+
+}
+
+
+/* scroll animation class */
+
+.show{
+    transform: translate(0);
+    opacity: 1;
+}
